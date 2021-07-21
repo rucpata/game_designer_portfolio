@@ -8,19 +8,19 @@ module.exports = {
   //   siteTitleAlt: `Patrycja Rucińska - Game Designer`,
   // },
   siteMetadata: {
-    siteTitle: "Pata",
-    // siteTitleAlt: "My Blog",
-    author: "Amberley Romo",
-    description: "A collection of my thoughts and writings.",
-    siteUrl: "https://amberley.blog/",
+    siteTitle: "Game Designer",
+    siteTitleAlt: "Patrycja Rucińska - Game Designer",
+    siteHeadline: "GAME",
+    siteUrl: "/",
+    siteDescription: 'Portfolio',
+    siteLanguage: "PL",
+    author: "Patrycja Rucińska",
+    siteUrl: "https://rucpata.netlify.app/",
     social: [
-      {
-        name: "twitter",
-        url: "https://twitter.com/amber1ey",
-      },
+      
       {
         name: "github",
-        url: "https://github.com/amberleyromo",
+        url: "https://github.com/rucpata",
       },
     ],
   },
