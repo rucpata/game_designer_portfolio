@@ -4,14 +4,33 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
+  // siteMetadata: {
+  //   siteTitleAlt: `Patrycja Rucińska - Game Designer`,
+  // },
   siteMetadata: {
-    siteTitleAlt: `Patrycja Rucińska - Game Designer`,
+    siteTitle: "Pata",
+    // siteTitleAlt: "My Blog",
+    author: "Amberley Romo",
+    description: "A collection of my thoughts and writings.",
+    siteUrl: "https://amberley.blog/",
+    social: [
+      {
+        name: "twitter",
+        url: "https://twitter.com/amber1ey",
+      },
+      {
+        name: "github",
+        url: "https://github.com/amberleyromo",
+      },
+    ],
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emma`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+
+      },
     },
     googleAnalyticsTrackingId && {
       resolve: `gatsby-plugin-google-analytics`,
