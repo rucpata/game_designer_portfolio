@@ -8,7 +8,7 @@ module.exports = {
   //   siteTitleAlt: `Patrycja Rucińska - Game Designer`,
   // },
   siteMetadata: {
-    siteTitle: "Game Designer",
+    siteTitle: "Projekty",
     siteTitleAlt: "Patrycja Rucińska - Game Designer",
     siteHeadline: "GAME",
     siteUrl: "/",
